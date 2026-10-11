@@ -1,0 +1,7 @@
+build/
+cmake-build-*/
+.cache/
+fuzz/failures/
+*.o
+*.s
+!tests/**/*.s
